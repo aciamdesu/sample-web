@@ -1,0 +1,400 @@
+* {
+  font-family: Arial;
+  text-decoration: none;
+}
+
+body {
+  background: url(/bg-light.jpg) no-repeat left fixed;
+  background-size: cover;
+}
+
+h2,
+h4,
+.biology,
+.evolution-chart {
+  font-size: 35px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.data {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+  border: 5px double black;
+  background-color: #77c7b2;
+  border-radius: 15px;
+  width: 644px;
+  height: 590px;
+  text-align: 50px left;
+}
+
+.psyduck {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  position: static;
+  overflow: hidden;
+}
+
+ul {
+  margin-top: 150px;
+  padding: 10px;
+  list-style: none;
+  overflow: hidden;
+  background-color: #edbd1d;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial;
+  font-size: 20 px;
+  padding: 10px 25px;
+  transition: 1s ease;
+}
+
+li a:hover {
+  background-color: #1c1c15;
+  color: #fff;
+}
+
+.nav-bar {
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #edbd1d;
+}
+
+.nav-bar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .gym {
+  font-size: 16px;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 14px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.gym-leaders {
+  display: none;
+  position: absolute;
+  background-color: #edbd1d;
+  min-width: 100px;
+  z-index: 1;
+  color: #1c1c15;
+}
+
+.gym-leaders a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.5s ease-in-out;
+}
+
+.gym-leaders a:hover {
+  background-color: #1c1c15;
+  color: #edbd1d;
+}
+
+.dropdown:hover .gym-leaders {
+  display: block;
+}
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown2 .place {
+  font-size: 16px;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 14px 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.region {
+  display: none;
+  position: absolute;
+  background-color: #edbd1d;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.region a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.5s ease-in-out;
+}
+
+.region a:hover {
+  background-color: #1c1c15;
+  color: #edbd1d;
+}
+
+.dropdown2:hover .region {
+  display: block;
+}
+
+input:focus {
+  width: 200px;
+  background-color: #fff;
+}
+
+.normal,
+.evolution-psyduck {
+  padding: 15px;
+  padding-bottom: 20px;
+  float: left;
+  width: 240px;
+  height: 200px;
+}
+
+.shiny,
+.evolution-golduck {
+  padding: 15px;
+  padding-bottom: 20px;
+  float: left;
+  width: 240px;
+  height: 200px;
+}
+
+li {
+  float: left;
+}
+
+.border {
+  width: 850px;
+  height: 1940px;
+  padding: 10px;
+  margin: 230px;
+  margin-top: auto;
+  background-color: #e5cf91;
+  background-size: 500px;
+  border: 5px double rgb(19, 11, 11);
+  border-radius: 15px;
+}
+
+.information {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-decoration: none;
+}
+
+.info {
+  text-align: justify;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+.pokemon-pic,
+.psygol {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.normal-type,
+.evo-psy {
+  padding-top: 40px;
+  height: 270px;
+  text-align: center;
+}
+
+.shiny-type,
+.evo-gol {
+  padding-top: 40px;
+  height: 270px;
+  text-align: center;
+}
+
+.hr {
+  width: 870px;
+}
+
+.line {
+  width: 630px;
+  margin-top: 100px;
+}
+
+.pokedex {
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.about {
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 75%;
+  text-decoration: none;
+}
+
+.biology {
+  text-align: justify;
+}
+
+.female {
+  margin-left: 130px;
+}
+
+.space,
+.evolution-chart {
+  margin-top: 100px;
+  width: 690px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.evolution-chart {
+  margin-left: 108px;
+}
+
+.evolution-arrow {
+  margin: auto 0;
+}
+
+.evolution-arrow p {
+  text-align: center;
+}
+
+.evo {
+  width: 75px;
+  height: 75px;
+}
+
+.left-arrow img {
+  position: absolute;
+  bottom: -680px;
+  left: 62.5px;
+  width: 75px;
+  height: 75px;
+}
+
+.right-arrow img {
+  position: absolute;
+  bottom: -680px;
+  right: 62.5px;
+  width: 75px;
+  height: 75px;
+}
+
+.evolution-psyduck {
+  margin-left: 35px;
+}
+
+.evolution-golduck {
+  margin-right: 45px;
+}
+
+.water-pokemon {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #4861e1;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  background-color: #4861e1;
+  display: inline-block;
+  width: 40px;
+}
+
+.grass-pokemon {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #3cd070;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  background-color: #3cd070;
+  display: inline-block;
+  width: 40px;
+}
+
+.electric-pokemon {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #fff441;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  background-color: #fff441;
+  display: inline-block;
+  width: 50px;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+.nav-bar input {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.copyright {
+  color: white;
+}
+
+.link-buttons {
+  margin: 5px auto;
+  width: 68%;
+  height: 3em;
+}
+
+.link-buttons a {
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+}
+
+.left-button {
+  margin-left: 5px;
+  float: left;
+}
+
+.right-button {
+  float: right;
+}
