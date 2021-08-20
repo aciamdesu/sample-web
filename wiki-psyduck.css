@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(/bg-light.jpg) no-repeat left fixed;
+  background: url("bg-light.jpg") no-repeat left fixed;
   background-size: cover;
 }
 
