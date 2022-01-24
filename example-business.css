@@ -1,0 +1,153 @@
+body {
+  background: url("/LOL.png") no-repeat left fixed;
+  background-size: cover;
+}
+
+.top-women {
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  color: #cdb2a2;
+  font-family: arial;
+}
+
+.top-men {
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  color: #cdb2a2;
+  font-family: arial;
+}
+
+.top-kids {
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  color: #cdb2a2;
+  font-family: arial;
+}
+
+.top-women,
+.top-men,
+.top-kids {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.top-profile a {
+  color: #cdb2a2;
+  margin-left: 250px;
+}
+
+.top-cart a {
+  color: #cdb2a2;
+  margin-left: 250px;
+}
+
+.top-wish-list a {
+  color: #cdb2a2;
+  margin-left: 250px;
+}
+
+.button-profile,
+.button-cart,
+.button-wish-list,
+.button-facebook,
+.button-twitter {
+  width: 30px;
+  height: 30px;
+}
+
+.top-buttons {
+  margin-left: 100px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.body-title {
+  font-size: 80px;
+  font-family: Arial;
+  margin-left: 130px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.body-title-upper {
+  display: block;
+  color: #d5c0b4;
+}
+
+.body-title-upper p {
+  display: inline;
+}
+
+.body-title-under {
+  width: 640px;
+  font-size: 18px;
+  color: #d5c0b4;
+  display: block;
+}
+
+.top-buttons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.top-buttons li {
+  float: left;
+}
+
+.top-buttons li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-buttons {
+  margin-top: 5px;
+  margin-right: 100px;
+}
+
+.nav-icons {
+  margin-left: 43px;
+}
+
+.bottom-buttons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bottom-buttons li {
+  float: left;
+}
+
+.bottom-buttons li a {
+  margin-right: 60px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bottom-buttons {
+  margin-top: 80px;
+  margin-left: 47%;
+}
+
+li .top-button-title {
+  font-size: 30px;
+  color: #cdb2a2;
+  font-family: helvetica;
+  margin-right: 90px;
+  letter-spacing: 10px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.last {
+  margin-right: 143px;
+}
